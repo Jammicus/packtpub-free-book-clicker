@@ -10,7 +10,7 @@ def createBrowser():
     chromedriver = "Driver/chromedriver"
     os.environ["webdriver.chrome.driver"] = chromedriver
     chromeOptions.binary_location = ("Browser/Chromium.app/Contents/MacOS/Chromium")
-    webdriver.Chrome(chromedriver, chrome_options=chromeOptions)
+    chromeOptions.add_argument("--kiosk")
     return webdriver.Chrome(chromedriver, chrome_options=chromeOptions)
 
 
