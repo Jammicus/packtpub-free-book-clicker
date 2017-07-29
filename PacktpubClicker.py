@@ -7,12 +7,10 @@ import sys
 
 def createBrowser():
     chromeOptions = Options()
-    os.
-    if (os == 'mac'):
-        chromedriver = "Driver/chromedriver"
-        os.environ["webdriver.chrome.driver"] = chromedriver
-        chromeOptions.binary_location = ("Browser/Chromium.app/Contents/MacOS/Chromium")
-        webdriver.Chrome(chromedriver, chrome_options=chromeOptions)
+    chromedriver = "Driver/chromedriver"
+    os.environ["webdriver.chrome.driver"] = chromedriver
+    chromeOptions.binary_location = ("Browser/Chromium.app/Contents/MacOS/Chromium")
+    webdriver.Chrome(chromedriver, chrome_options=chromeOptions)
     return webdriver.Chrome(chromedriver, chrome_options=chromeOptions)
 
 
