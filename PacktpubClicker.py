@@ -18,7 +18,7 @@ def openWebPage(browser):
     browser.get('https://www.packtpub.com/packt/offers/free-learning')
 
 
-def clickFreeBooLink(browser):
+def clickFreeBookLink(browser):
     browser.implicitly_wait(10)
     freeBookLink = browser.find_element_by_id('free-learning-claim')
     type(freeBookLink)
@@ -32,7 +32,6 @@ def logIn(browser, email, password):
     browser.implicitly_wait(2)
     loginIcon = browser.find_element_by_css_selector(".login-popup .float-left")
     loginIcon.click()
-    browser.implicitly_wait(1)
     emailBox = browser.find_elements_by_xpath("// *[ @ id = 'email']")
     emailBox[1].send_keys(email)
     passwordBox = browser.find_elements_by_xpath(" // *[ @ id = 'password']")
@@ -50,5 +49,5 @@ if __name__ == "__main__":
     browser = createBrowser()
     openWebPage(browser)
     logIn(browser, email, password)
-    clickFreeBooLink(browser)
+    clickFreeBookLink(browser)
     browser.close()
