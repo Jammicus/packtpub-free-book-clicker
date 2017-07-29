@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BreakpadProduct</key>
+	<string>Chromium_Mac</string>
+	<key>BreakpadProductDisplay</key>
+	<string>Chromium</string>
+	<key>BreakpadReportInterval</key>
+	<string>3600</string>
+	<key>BreakpadSendAndExit</key>
+	<string>YES</string>
+	<key>BreakpadSkipConfirm</key>
+	<string>YES</string>
+	<key>BreakpadURL</key>
+	<string>none</string>
+	<key>BreakpadVersion</key>
+	<string>53.0.2785.0</string>
+	<key>BuildMachineOSBuild</key>
+	<string>13F1603</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>Chromium Framework</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.chromium.Chromium.framework</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>53.0.2785.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>2785.0</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTSDKBuild</key>
+	<string>10.10</string>
+	<key>DTSDKName</key>
+	<string>macosx10.1010.10</string>
+	<key>DTXcode</key>
+	<string>0511</string>
+	<key>DTXcodeBuild</key>
+	<string>5B1008</string>
+	<key>SCMRevision</key>
+	<string>e5478255cd31bffa2867db84946f9512cba5a3fd-refs/heads/master@{#403085}</string>
+</dict>
+</plist>
